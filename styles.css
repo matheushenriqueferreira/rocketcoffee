@@ -1,0 +1,13 @@
+:root {
+  --bg-color: #FFEDD5;
+  --bg-title-color: #FED7AA;
+  --text-color: #2D2C2A;
+  --text-color2: #995000;
+  --text-color3: rgb(0, 0, 0, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
