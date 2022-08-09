@@ -5,7 +5,8 @@
   --bg-title-color: #FED7AA;
   --text-color: #2D2C2A;
   --text-color2: #995000;
-  --text-color3: rgb(0, 0, 0, 0.6);
+  --text-color3: rgb(0, 0, 0, 0.7);
+  --text-color4: rgb(0, 0, 0, 0.6);
 }
 
 * {
@@ -26,6 +27,19 @@ ul {
 header {
   text-align: center;
   padding: 32px 0;
+}
+
+header h1 {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+header h1 span {
+  color: var(--text-color2);
+}
+
+header p {
+  color: var(--text-color3);
 }
 
 header, section {
