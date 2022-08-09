@@ -33,9 +33,22 @@ header, section {
   margin: 0 auto;
 }
 
+section {
+  margin-bottom: 24px;
+}
+
 section h2 {
   background-color: var(--bg-title-color);
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 24px;
+}
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details {
+  max-width: 240px;
 }
